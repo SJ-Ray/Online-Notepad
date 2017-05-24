@@ -1,0 +1,74 @@
+.fonts{
+	border:2px solid #6ca4d8;
+	width:42%;
+	position:fixed;
+	-webkit-box-shadow:10px 10px 5px #888;
+	box-shadow:8px 8px 5px #888;
+	z-index:100;
+}
+
+.font_title_bar{
+background-color:#6ca4d8;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:5px;
+}
+
+.font_content{
+	display:flex;
+	background-color:#F0F0F0;
+	flex-direction:column;
+}
+.font_content .upper{
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+}
+
+.font_content .middle{
+	display:flex;
+	justify-content:center;
+}
+
+.sample_text{
+border:1px solid gray;
+display:flex;
+justify-content:center;
+padding:20px;
+width:60%;
+height:100px;
+overflow-y:scroll;
+}
+
+.lower{
+display:flex;
+margin:12px 25px 10px 0px;
+justify-content:flex-end;
+}
+
+.lower button{
+	height:30px;
+	width:100px;
+	margin-left:10px;
+}
+
+.upper input{
+		border:1px solid blue;
+}
+
+.upper select{
+	border:1px solid gray;
+}
+
+.upper input,.upper select{
+	width:90%;
+}
+
+.font_selection input,.font_selection select{
+	width:100%;
+}
+
+.size_selection input,.size_selection select{
+	width:80%;
+}

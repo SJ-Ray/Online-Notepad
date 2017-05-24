@@ -1,0 +1,177 @@
+*{
+margin:0px;
+padding:0px;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+body{
+width:100%;
+}
+
+li{
+list-style:none;
+}
+
+.title_bar,.menu_bar,.text_area{
+display:-webkit-box;
+display:-moz-box;
+width:100%;
+-webkit-user-select: none;         
+-moz-user-select: none; 
+-ms-user-select: none; 
+}
+
+.title_bar{
+background-color:#6ca4d8;
+border-bottom:1px solid 2b4150;
+-webkit-box-orient:horizontal;
+box-orient:horizontal;
+height:30px;
+font:12px arial;
+font-weight:lighter;
+}
+
+.title_bar h1{
+position:absolute;
+padding:5px 0px 5px 0px;
+font-size:16px;
+right:48%;
+}
+
+.notepad_icon img{
+height:30px;
+width:30px;
+padding:2px;
+}
+
+.notepad_icon{
+position:absolute;
+left:3px;
+}
+
+.controls{
+position:absolute;
+right:0px;
+}
+
+.menu_bar{
+border-bottom:2px solid #c8c8c8;
+font-size:14px;
+background-color:#f8f8f8;
+}
+
+.menu_bar ul li{
+display:inline-block;
+border:1px solid #f8f8f8;
+padding:3px;
+}
+
+.menu_bar ul li:hover{
+background:	#AEEEEE;
+border:1px solid blue;
+}
+
+.menu_bar ul li:first-letter{
+text-decoration:underline;
+} 
+
+.log_out{	
+float:right;
+text-decoration:none;	
+}
+
+.log_name{
+	position:relative;
+	top:-10px;
+	margin-left:5px;
+	font-weight:bold;
+	color:white;
+	text-transform:uppercase;
+	padding:9px;
+}
+
+	.find{
+		width:320px;
+		position:fixed;
+		top:200px;
+		left:400px;
+		border:1px solid #6ca4d8;
+		box-shadow:8px 8px 5px #888;
+		z-index:100;
+	}	
+	
+	.replace{
+		width:332px;
+		position:fixed;
+		top:200px;
+		left:400px;
+		border:1px solid #6ca4d8;
+		font-size:12px;
+		box-shadow:8px 8px 5px #888;
+		z-index:100;
+	}
+	
+	.find_title,.replace_title{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		height:23px;
+		background-color:#6ca4d8;
+		padding:5px 0px 5px 5px;
+	}
+	
+	.find_body{
+		background-color:#F0F0F0;
+		padding-top:8px;
+	}
+	
+	.find_body_upper{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		padding:3px;
+	}
+	
+	.find_body_lower{
+		position:relative;
+		top:-10px;
+		display:flex;
+		font-size:13px;
+		justify-content:space-between;
+		align-items:flex-start;
+		padding:3px;
+	}
+	
+	.find button{
+		height:20px;
+		width:80px;
+		font-size:10px;
+	}
+	
+	.replace_body{
+		display:flex;
+		background-color:#F0F0F0;
+	}
+	
+	.replace_inputs{
+		margin:10px;
+	}
+	
+	.replace_buttons{
+		padding:10px;
+		display:flex;
+		flex-direction:column;
+	}
+	
+	.replace_buttons button{
+		font-size:11px;
+		width:80px;
+	}
+
+#work_space{
+height:90%;
+width:100%;
+z-index:-1;
+}

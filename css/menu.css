@@ -1,0 +1,277 @@
+.file_option,.edit_option,.format_option{
+display:-webkit-box;
+display:-ms-box;
+display:flex;
+-webkit-box-orient:horizontal;
+-moz-box-orient:horizontal;
+-ms-box-orient:horizontal;
+box-orient:horizontal;
+-webkit-box-shadow:10px 10px 5px #888;
+box-shadow:8px 8px 5px #888;
+background-color:#F0F0F0;
+border:1px solid rgba(0,0,0,0.3);
+position:fixed;
+z-index:100;	
+font-family:times new roman;
+-webkit-user-select: none;        
+-moz-user-select: none;
+-ms-user-select: none; 
+}
+
+.file_option{
+display:none;
+width:240px;
+left:0px;
+}
+
+.file_list{
+display:inherit;
+}
+
+.edit_option {
+display:none;
+overflow-x:hidden;
+width:200px;
+left:35px;
+}
+
+.format_option{
+width:185px;
+left:70px;
+display:none;
+}
+
+.file_option .blank{
+display:inherit;
+width:35px;
+border-right:2px solid rgba(0,0,0,0.3);
+}
+
+.edit_option .blank{
+display:inherit;
+padding-right:30px;
+border-right:2px solid rgba(0,0,0,0.3);
+}
+
+.file_option hr,.edit_option hr{
+width:200px;
+color:rgba(0,0,0,0.3);
+}
+
+
+.format_option #wrap_check{
+height:18px;
+width:29px;
+}
+
+
+.file_option .file_short{
+float:right;
+padding-right:5px;	
+}
+
+.edit_option .file_short{
+float:right;
+padding-right:45px;
+}
+
+.file_list ul li,.edit_list ul li{
+padding:4px 4px 4px 3px;
+border:1px solid #F0F0F0;
+}
+
+.format_option ul li{
+padding:4px 1px 4px 2px;
+border:2px solid #F0F0F0;
+}
+
+.format_option .blank{
+border-right:1px solid rgba(0,0,0,0.3);
+margin-right:3px;
+}
+
+.format_option .format_list ul li{
+padding-right:62px;
+border:1px solid #F0F0F0;
+}
+.file_list ul li:hover,.edit_list ul li:hover,.format_option ul li:hover{
+background:	#AEEEEE;
+border:1px solid blue;
+}
+
+.file{
+display:none;
+}
+
+.login_option{
+	display:none;
+	width:270px;
+	height:165px;
+	position:fixed;
+	top:160px;
+	left:300px;
+	box-shadow:8px 8px 5px #888;
+	border:1px solid #6ca4d8;
+	background-color:#F0F0F0;
+	-webkit-user-select: none;        
+	-moz-user-select: none;
+	flex-direction:column;
+}
+.login_title{
+	display:flex;
+	height:25px;
+	background-color:#6ca4d8;
+	justify-content:space-between;
+	align-items:center;
+	padding:5px;
+}
+.login_area{
+	display:flex;
+	padding:15px;
+	justify-content:space-between;
+}
+
+.login_option input{
+float:right;
+border-radius:4px;
+height:25px;
+margin-bottom:1px;
+width:160px;
+}
+
+.login_option ul li{
+padding:3px;
+list-style:none;
+}
+
+.login_bottom{
+display:flex;
+justify-content:space-around;
+}
+
+.registration{
+	cursor:arrow;
+	position:fixed;
+	top:150px;
+	left:300px;
+	display:none;
+	width:330px;
+	height:190px;
+	box-shadow:8px 8px 5px #888;
+	border:1px solid #6ca4d8;
+	background-color:#F0F0F0;
+	-webkit-user-select: none;        
+	-moz-user-select: none;
+	flex-direction:column;
+}
+
+.registration_title{
+	display:flex;
+	height:25px;
+	background-color:#6ca4d8;
+	justify-content:space-between;
+	align-items:center;
+	padding:5px;
+}
+
+.registration_area input{
+float:right;
+border-radius:4px;
+height:25px;
+width:150px;
+}
+
+.registration ul li{
+padding:5px;
+}
+
+.registration_area{
+position:relative;
+padding:5px;
+}
+
+#sign_up{
+float:right;
+padding:3px;
+width:100px;	
+}
+
+.about_notepad{
+display:none;
+position:fixed;
+cursor:default;
+top:130px;
+left:200px;
+height:380px;
+width:600px;
+box-shadow:8px 8px 5px #888;
+background-color:#F0F0F0;
+border:5px solid #6ca4d8;
+-webkit-user-select: none;        
+-moz-user-select: none;
+-ms-user-select: none;
+}
+
+.about_notepad h3{
+text-align:center;
+display:block;
+background-color:#6ca4d8;
+}
+
+.about_notepad hr{
+height:3px;
+background-color:gray;
+margin-bottom:8px;
+}
+.logo_area img,.logo_area h2,.about_info img,.about_info p{
+display:inline-block;
+}
+
+.logo_area{
+margin-left:50px;
+}
+
+.logo_area h2{
+position:relative;
+top:-30px;
+left:-20px;
+color:#da0f0f;
+font:60px tahoma;
+font-weight:bold;
+}
+
+.about_info{
+padding:10px;
+}
+
+.about_info p{
+position:relative;
+top:-15px;
+}
+
+.about_info img{
+border-radius:10px;
+margin-right:10px;
+-webkit-box-shadow:0 0 5px 5px #888;
+box-shadow:0 0 5px 5px #888;
+}
+
+#log_in{
+width:100px;
+padding:5px;
+float:right;
+}
+
+#new_user{
+float:left;
+padding:3px;
+}
+
+#abt_ok{
+position:relative;
+float:right;
+top:-45px;
+margin-right:30px;
+width:100px;
+height:30px;
+}

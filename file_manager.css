@@ -1,0 +1,165 @@
+	img{
+		cursor:arrow;
+	}
+	
+	.refresh_button{
+		border:1px solid #bbb;
+	}
+	
+	.refresh_button:hover{
+		background-color:blue;
+	}
+	
+	.tools{
+		position:relative;
+		top:-4px;
+	}
+	
+	.tools:hover{
+		animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+		transform: translate3d(0, 0, 0);
+		backface-visibility: hidden;
+		perspective: 1000px;
+	}
+	
+	@keyframes shake {
+		10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+		}
+  
+		20%, 80% {
+		transform: translate3d(2px, 0, 0);
+		}
+
+		30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+		}
+
+		40%, 60% {
+		transform: translate3d(4px, 0, 0);
+		}
+}
+	
+	.online_open{
+		-webkit-box-shadow:10px 10px 5px #888;
+		box-shadow:8px 8px 5px #888;
+		border:1px solid rgba(0,0,0,0.3);	
+		width:600px;
+		position:fixed;
+		top:80px;
+		left:280px;
+	}
+	.open_title{
+		background-color:#6ca4d8;
+		padding:5px;
+		display:flex;
+	}
+	
+	.open_contents{
+		border:5px solid #6ca4d8;
+		background-color:#F0F0F0;
+	}
+	.location_nav_section{
+		height:35px;
+	}
+	.layout_preview_option{
+		height:40px;
+		background-color:#FFF;
+		border:1px solid #F0F0F0;
+	}
+	.content_display{
+		height:200px;
+		padding:15px;
+		word-wrap: break-word;
+		display:flex;
+		overflow:scroll;
+		flex-wrap:wrap;
+		background-color:#FFF;
+	}
+	.content_footer{
+		height:100px;
+		background-color:#F0F0F0;
+	}
+	.notepad_icon img{
+		height:25px;
+		width:25px;
+		margin:3px 0px 0px 3px;
+	}
+	.op_title{
+		font:18px arial,sans-serif;
+		font-weight:0.3;
+		margin-top:5px;
+		margin-left:195px;
+		cursor:arrow;
+	}
+
+	.location_nav_section{
+		display:flex;
+		padding:5px;
+		margin:5px;
+	}
+	.file_input{
+		border:1px solid #bbb;
+		padding:2px;
+		height:25px;
+		width:45%;
+	}
+	.search_input{
+		margin-left:10px;
+		border:1px solid #bbb;
+		padding:2px;
+		height:25px;
+		width:35%;
+	}
+	.layout_preview_option{
+		display:flex;
+		padding:10px;
+	}
+	.file_related_footer{
+		display:flex;
+		padding:10px;
+	}
+	.file_related_footer1{
+		display:flex;
+		padding:10px;
+	}
+	
+	.btn{
+		padding:1px 8px 4px 8px;
+		width:100px;
+		height:28px;
+		margin-right:10px;
+	}
+	.extension{
+		width:40%;
+		margin-left:10px;
+		background-color:#F0F0F0;
+	}
+	
+	.back:hover{
+		background-color:blue;
+	}
+	
+	.encoding{
+		width:40%;
+		height:28px;
+		background-color:#F0F0F0;
+		margin-right:10px;
+	}
+	
+	.loaded_files{
+		margin:5px 15px 5px 15px;
+		width:60px;
+		padding:5px;
+		text-align:center;
+	}
+	
+	.loaded_file_icon{
+		padding:5px;
+	}
+	
+	.loaded_file_txt{
+		word-wrap:break-word;
+		font-size:0.8em;
+	}
+	
